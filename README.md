@@ -23,8 +23,7 @@ Jaringan Komputer (F) </br>
 > Must be known before starting configuration
 ## Network Topology
 > *Using Topology number 6*
-
-![imgTopology](resources/doc-images/topology.png)
+<img src="sources/doc-images/topology.png" height="50">
 
 ## Node Configuration
 - **Router** 
@@ -214,10 +213,10 @@ ping google.com -c 3
 
 ### Test Result
 ***Nakula*** :
-![p-gglNakula](resources/doc-images/p-ggl-Nakula.png)
+<img src="resources/doc-images/p-ggl-Nakula.png" height="50">
 
 ***Sadewa*** :
-![p-gglSadewa](resources/doc-images/p-ggl-Sadewa.png)
+<img src="resources/doc-images/p-ggl-Sadewa.png" height="50">
 
 
 ## Question 2 - *DNS*
@@ -269,16 +268,13 @@ host -t CNAME www.arjuna.b02.com
 
 ### Test Result
 Test tanpa **www**
-
-![domArjuna](resources/doc-images/2-1.png)
+<img src="sources/doc-images/2-1.png" height="50">
 
 Test menggunakan **www**
-
-![domWwwArjuna](resources/doc-images/2-2.png)
+<img src="sources/doc-images/2-2.png" height="50">
 
 Test Alias dari **www**
-
-![cnameArjuna](resources/doc-images/2-3.png)
+<img src="sources/doc-images/2-3.png" height="50">
 
 
 ## Question 3 - *DNS*
@@ -322,16 +318,13 @@ host -t CNAME www.abimanyu.b02.com
 
 ### Test Result
 Test tanpa **www**
-
-![domAbimanyu](resources/doc-images/3-1.png)
+<img src="sources/doc-images/3-1.png" height="50">
 
 Test menggunakan **www**
-
-![domWwwAbimanyu](resources/doc-images/3-2.png)
+<img src="sources/doc-images/3-2.png" height="50">
 
 Test Alias dari **www**
-
-![cnameAbimanyu](resources/doc-images/3-3.png)
+<img src="sources/doc-images/3-3.png" height="50">
 
 
 ## Question 4 - *DNS*
@@ -368,8 +361,7 @@ ping parikesit.abimanyu.b02.com -c 3
 ```
 
 ### Test Result
-
-![parikesit](resources/doc-images/4.png)
+<img src="sources/doc-images/4.png" height="50">
 
 ## Question 5 - *DNS*
 > Buat juga reverse domain untuk domain utama. (Abimanyu saja yang direverse)!
@@ -423,8 +415,7 @@ host -t PTR 192.179.3.3
 ```
 
 ### Test Result
-
-![ptrIP](resources/doc-images/5.png)
+<img src="sources/doc-images/5.png" height="50">
 
 
 ## Question 6 - *DNS*
@@ -496,20 +487,16 @@ ping abimanyu.b02.com -c 3
 
 ### Test Result
 Start bind9 **Werkudara**
-
-![strWerku](resources/doc-images/6-1.png)
+<img src="sources/doc-images/6-1.png" height="50">
 
 Stop bind9 **Yudhistira**
-
-![stpYudhi](resources/doc-images/6-2.png)
+<img src="sources/doc-images/6-2.png" height="50">
 
 Test domain **Arjuna**
-
-![slaveArjuna](resources/doc-images/6-3.png)
+<img src="sources/doc-images/6-3.png" height="50">
 
 Test domain **Abimanyu**
-
-![slaveAbimanyu](resources/doc-images/6-4.png)
+<img src="sources/doc-images/6-4.png" height="50">
 
 
 ## Question 7 - *DNS*
@@ -613,16 +600,13 @@ host -t CNAME www.baratayuda.abimanyu.b02.com
 
 ### Test Result
 Test tanpa **www**
-
-![baratayuda](resources/doc-images/7-1.png)
+<img src="sources/doc-images/7-1.png" height="50">
 
 Test menggunakan **www**
-
-![baratayudaWWW](resources/doc-images/7-2.png)
+<img src="sources/doc-images/7-2.png" height="50">
 
 Test Alias dari **www**
-
-![cnameBarata](resources/doc-images/7-3.png)
+<img src="sources/doc-images/7-3.png" height="50">
 
 
 ## Question 8 - *DNS*
@@ -669,16 +653,13 @@ host -t CNAME www.rjp.baratayuda.abimanyu.b02.com
 
 ### Test Result
 Test tanpa **www**
-
-![rjpbaratayuda](resources/doc-images/8-1.png)
+<img src="sources/doc-images/8-1.png" height="50">
 
 Test menggunakan **www**
-
-![rjpbaratayudaWWW](resources/doc-images/8-2.png)
+<img src="sources/doc-images/8-2.png" height="50">
 
 Test Alias dari **www**
-
-![cnamerjpBarata](resources/doc-images/8-3.png)
+<img src="sources/doc-images/8-3.png" height="50">
 
 
 ## Question 9 - *Web Server*
@@ -896,22 +877,18 @@ service nginx restart
 
 ### Test Result
 Lakukan pengujian pada node client seperti Nakula. Tuliskan perintah berikut
-
-![9 test](https://github.com/rafifiaan/Jarkom-Modul-2-B02-2023/assets/108170236/81ce7cfb-262d-402a-b765-8c49f8e6b3ef)
+<img src="https://github.com/rafifiaan/Jarkom-Modul-2-B02-2023/assets/108170236/81ce7cfb-262d-402a-b765-8c49f8e6b3ef)
 
 Maka akan diperoleh hasil sebagai berikut. Hasil ini dapat berubah-ubah jika perintah pengujian di atas dijalankan kembali
 
 Hasil menampilkan Prabakusuma
-
-![9a testpra](https://github.com/rafifiaan/Jarkom-Modul-2-B02-2023/assets/108170236/5aa958d4-9668-4076-8b52-4a62c2bf8f7b)
+<img src="https://github.com/rafifiaan/Jarkom-Modul-2-B02-2023/assets/108170236/5aa958d4-9668-4076-8b52-4a62c2bf8f7b)
 
 Hasil menampilkan Abimanyu
-
-![9b testabi](https://github.com/rafifiaan/Jarkom-Modul-2-B02-2023/assets/108170236/636e51ff-274a-404b-91dc-4af362aa73a3)
+<img src="https://github.com/rafifiaan/Jarkom-Modul-2-B02-2023/assets/108170236/636e51ff-274a-404b-91dc-4af362aa73a3)
 
 Hasil menampilkan Wisanggeni
-
-![9c testwis](https://github.com/rafifiaan/Jarkom-Modul-2-B02-2023/assets/108170236/944690fc-f96a-499d-b6bd-81c6c177270b)
+<img src="https://github.com/rafifiaan/Jarkom-Modul-2-B02-2023/assets/108170236/944690fc-f96a-499d-b6bd-81c6c177270b)
 
 
 ## Question 10 - *Web Server*
@@ -995,20 +972,16 @@ service nginx restart
 
 ### Test Result
 Lakukan pengujian pada node client seperti Nakula. Tuliskan perintah berikut
-
-![9 test](https://github.com/rafifiaan/Jarkom-Modul-2-B02-2023/assets/108170236/81ce7cfb-262d-402a-b765-8c49f8e6b3ef)
+<img src="https://github.com/rafifiaan/Jarkom-Modul-2-B02-2023/assets/108170236/81ce7cfb-262d-402a-b765-8c49f8e6b3ef)
 
 Hasil menampilkan Prabakusuma
-
-![10a testpra](https://github.com/rafifiaan/Jarkom-Modul-2-B02-2023/assets/108170236/4891f93e-f475-4aef-ab70-d1739397a578)
+<img src="https://github.com/rafifiaan/Jarkom-Modul-2-B02-2023/assets/108170236/4891f93e-f475-4aef-ab70-d1739397a578)
 
 Hasil menampilkan Abimanyu
-
-![10b testabi](https://github.com/rafifiaan/Jarkom-Modul-2-B02-2023/assets/108170236/6321a60a-dabc-4bff-ab71-14a87de0a982)
+<img src="https://github.com/rafifiaan/Jarkom-Modul-2-B02-2023/assets/108170236/6321a60a-dabc-4bff-ab71-14a87de0a982)
 
 Hasil menampilkan Wisanggeni
-
-![10c testwis](https://github.com/rafifiaan/Jarkom-Modul-2-B02-2023/assets/108170236/faf59cb5-74c8-410c-856a-f95ee681928a)
+<img src="https://github.com/rafifiaan/Jarkom-Modul-2-B02-2023/assets/108170236/faf59cb5-74c8-410c-856a-f95ee681928a)
 
 
 ## Question 11 - *Web Server*
@@ -1073,8 +1046,7 @@ lynx abimanyu.b02.com
 ```
 
 ### Test Result
-
-![11](resources/doc-images/11.png)
+<img src="sources/doc-images/11.png" height="50">
 
 
 ## Question 12 - *Web Server*
@@ -1120,8 +1092,7 @@ lynx abimanyu.b02.com/home
 ```
 
 ### Test Result
-
-![12](resources/doc-images/12.png)
+<img src="sources/doc-images/12.png" height="50">
 
 
 ## Question 13 - *Web Server*
@@ -1164,8 +1135,7 @@ lynx parikesit.abimanyu.b02.com
 ```
 
 ### Test Result
-
-![13](resources/doc-images/13.png)
+<img src="sources/doc-images/13.png" height="50">
 
 
 ## Question 14 - *Web Server*
@@ -1210,16 +1180,13 @@ lynx parikesit.abimanyu.b02.com/secret
 
 ### Test Result
 Test **public**
-
-![pariPublic](resources/doc-images/14-1.png)
+<img src="sources/doc-images/14-1.png" height="50">
 
 Test **secret**
-
-![pariSecret](resources/doc-images/14-2.png)
+<img src="sources/doc-images/14-2.png" height="50">
 
 Laman **secret** setelah *alert*
-
-![nextPariSecret](resources/doc-images/14-3.png)
+<img src="sources/doc-images/14-3.png" height="50">
 
 
 ## Question 15 - *Web Server*
@@ -1273,20 +1240,16 @@ lynx parikesit.abimanyu.b02.com/secret
 
 ### Test Result
 Test pada laman **404 Error**
-
-![error1](resources/doc-images/15-1.png)
+<img src="sources/doc-images/15-1.png" height="50">
 
 Laman **404 Error** setelah *alert*
-
-![nextError](resources/doc-images/15-2.png)
+<img src="sources/doc-images/15-2.png" height="50">
 
 Test pada laman **403 Forbidden**
-
-![forbidden1](resources/doc-images/15-3.png)
+<img src="sources/doc-images/15-3.png" height="50">
 
 Laman **403 Forbidden** setelah *alert*
-
-![nextSecret](resources/doc-images/15-4.png)
+<img src="sources/doc-images/15-4.png" height="50">
 
 
 ## Question 16 - *Web Server*
@@ -1327,12 +1290,10 @@ Setelah itu lakukan perintah `service apache2 restart`
 
 ### Test Result
 Ketika dilakukan pengujian pada client node Nakula,
-
-![16 test](https://github.com/rafifiaan/Jarkom-Modul-2-B02-2023/assets/108170236/e95ab474-6577-4bb6-a3c6-0b78b053434f)
+<img src="https://github.com/rafifiaan/Jarkom-Modul-2-B02-2023/assets/108170236/e95ab474-6577-4bb6-a3c6-0b78b053434f)
 
 Diperoleh hasil yang sama ketika mengakses `www.parikesit.abimanyu.b02.com/public/js`, yaitu sebagai berikut
-
-![16a testresult](https://github.com/rafifiaan/Jarkom-Modul-2-B02-2023/assets/108170236/16ca2d14-ac3f-4140-b59e-ffd76929a3b2)
+<img src="https://github.com/rafifiaan/Jarkom-Modul-2-B02-2023/assets/108170236/16ca2d14-ac3f-4140-b59e-ffd76929a3b2)
 
 ## Question 17 - *Web Server*
 > Agar aman, buatlah konfigurasi agar **www.rjp.baratayuda.abimanyu.yyy.com** hanya dapat diakses melalui port 14000 dan 14400.
@@ -1388,16 +1349,12 @@ service apache2 restart
 
 ### Test Result
 Untuk pengujian dengan mengakses port 14000 atau 14400, diperoleh hasil sebagai berikut
-
-![17 test](https://github.com/rafifiaan/Jarkom-Modul-2-B02-2023/assets/108170236/67cce9e0-65f9-4b84-8fcd-b532944faa85)
-
-![17a testresult](https://github.com/rafifiaan/Jarkom-Modul-2-B02-2023/assets/108170236/c066cebe-d90a-4738-b69e-3e0f696846e8)
+<img src="https://github.com/rafifiaan/Jarkom-Modul-2-B02-2023/assets/108170236/67cce9e0-65f9-4b84-8fcd-b532944faa85)
+<img src="https://github.com/rafifiaan/Jarkom-Modul-2-B02-2023/assets/108170236/c066cebe-d90a-4738-b69e-3e0f696846e8)
 
 Adapun untuk pengujian akses dengan port yang salah, diperoleh hasil sebagai berikut
-
-![17b testnotvalid](https://github.com/rafifiaan/Jarkom-Modul-2-B02-2023/assets/108170236/8569a852-f288-41cb-9615-4c7f21e39b22)
-
-![17c testnotvalidresult](https://github.com/rafifiaan/Jarkom-Modul-2-B02-2023/assets/108170236/e257116c-9a66-41e4-beb0-2c7e115e4936)
+<img src="https://github.com/rafifiaan/Jarkom-Modul-2-B02-2023/assets/108170236/8569a852-f288-41cb-9615-4c7f21e39b22)
+<img src="https://github.com/rafifiaan/Jarkom-Modul-2-B02-2023/assets/108170236/e257116c-9a66-41e4-beb0-2c7e115e4936)
 
 ## Question 18 - *Web Server*
 > Untuk mengaksesnya buatlah autentikasi username berupa “Wayang” dan password “baratayudayyy” dengan yyy merupakan kode kelompok. Letakkan DocumentRoot pada /var/www/rjp.baratayuda.abimanyu.yyy
@@ -1444,20 +1401,16 @@ service apache2 restart
 
 ### Test Result
 Untuk pengujian, dapat kembali mengakses `lynx rjp.baratayuda.abimanyu.b02.com:14000` atau `lynx rjp.baratayuda.abimanyu.b02.com:14400` pada node client Nakula
-
-![17 test](https://github.com/rafifiaan/Jarkom-Modul-2-B02-2023/assets/108170236/67cce9e0-65f9-4b84-8fcd-b532944faa85)
+<img src="https://github.com/rafifiaan/Jarkom-Modul-2-B02-2023/assets/108170236/67cce9e0-65f9-4b84-8fcd-b532944faa85)
 
 setelah itu akan muncul pesan peringatan, yang dilanjutkan dengan tampilan untuk mengisikan username dan password autentikasi
+<img src="https://github.com/rafifiaan/Jarkom-Modul-2-B02-2023/assets/108170236/0caf20db-ea4d-4734-951a-10c90ac477bd)
 
-![18a testwarning](https://github.com/rafifiaan/Jarkom-Modul-2-B02-2023/assets/108170236/0caf20db-ea4d-4734-951a-10c90ac477bd)
-
-![18b  testuser](https://github.com/rafifiaan/Jarkom-Modul-2-B02-2023/assets/108170236/250adc0f-a3ec-456b-b02c-b1bf96d67b8f)
-
-![18c testpass](https://github.com/rafifiaan/Jarkom-Modul-2-B02-2023/assets/108170236/26433408-9987-4f6a-9842-f6d4007479b3)
+<img src="https://github.com/rafifiaan/Jarkom-Modul-2-B02-2023/assets/108170236/250adc0f-a3ec-456b-b02c-b1bf96d67b8f)
+<img src="https://github.com/rafifiaan/Jarkom-Modul-2-B02-2023/assets/108170236/26433408-9987-4f6a-9842-f6d4007479b3)
 
 Setelah mengisikan username `Wayang` dan password `baratayudab02`, diperoleh hasil sebagai berikut
-
-![18d testresult](https://github.com/rafifiaan/Jarkom-Modul-2-B02-2023/assets/108170236/82d8bfd8-93b6-45f2-b891-5f063e79e956)
+<img src="https://github.com/rafifiaan/Jarkom-Modul-2-B02-2023/assets/108170236/82d8bfd8-93b6-45f2-b891-5f063e79e956)
 
 ## Question 19 - *Web Server*
 > Buatlah agar setiap kali mengakses IP dari Abimanyu akan secara otomatis dialihkan ke **www.abimanyu.yyy.com** (alias)
@@ -1487,12 +1440,10 @@ service apache2 restart
 
 ### Test Result
 Kita dapat menjalankan pengujian sebagai berikut pada node client Nakula dengan menggunakan `lynx` ditujukan pada IP Abimanyu yaitu `192.179.3.3`
-
-![19 test](https://github.com/rafifiaan/Jarkom-Modul-2-B02-2023/assets/108170236/6c4a3f46-6ca1-4dfc-b3d0-045b96cd3e86)
+<img src="https://github.com/rafifiaan/Jarkom-Modul-2-B02-2023/assets/108170236/6c4a3f46-6ca1-4dfc-b3d0-045b96cd3e86)
 
 Diperoleh hasil sebagai berikut
-
-![19a testresult](https://github.com/rafifiaan/Jarkom-Modul-2-B02-2023/assets/108170236/fe06d197-967c-4bd5-be2f-70bb3e77d43a)
+<img src="https://github.com/rafifiaan/Jarkom-Modul-2-B02-2023/assets/108170236/fe06d197-967c-4bd5-be2f-70bb3e77d43a)
 
 
 ## Question 20 - *Web Server*
@@ -1572,13 +1523,10 @@ service apache2 restart
 
 ### Test Result
 Untuk pengujian dapat dilakukan sebagai berikut, dimana kita mencoba menjalankan perintah `lynx` yang diikuti `parikesit.abimanyu.b02.com/public/images/` lalu disertai nama file. Nama file disini dapat berupa gambar, dll. Konfigurasi `Rewrite` akan melakukan penyaringan seperti ketentuan kondisi di atas.
-
-![20 test](https://github.com/rafifiaan/Jarkom-Modul-2-B02-2023/assets/108170236/53244f71-deed-4bf7-a99c-9d6f6634dda4)
+<img src="https://github.com/rafifiaan/Jarkom-Modul-2-B02-2023/assets/108170236/53244f71-deed-4bf7-a99c-9d6f6634dda4)
 
 Diperoleh hasil sebagai berikut
-
-![20a testresult](https://github.com/rafifiaan/Jarkom-Modul-2-B02-2023/assets/108170236/90ff3dfb-9b05-4775-bc93-99d5442abf64)
+<img src="https://github.com/rafifiaan/Jarkom-Modul-2-B02-2023/assets/108170236/90ff3dfb-9b05-4775-bc93-99d5442abf64)
 
 Jika dilakukan percobaan dengan tidak sesuai ketentuan, misalnya pada percobaan terakhir yaitu `lynx parikesit.abimanyu.b02.com/public/images/notabimanyujustmuseum.177013`, maka akan diperoleh hasil sebagai berikut
-
-![20b testresultnotvalid](https://github.com/rafifiaan/Jarkom-Modul-2-B02-2023/assets/108170236/cb7f5bce-0b5f-4959-a416-4423036d7342)
+<img src="https://github.com/rafifiaan/Jarkom-Modul-2-B02-2023/assets/108170236/cb7f5bce-0b5f-4959-a416-4423036d7342)
