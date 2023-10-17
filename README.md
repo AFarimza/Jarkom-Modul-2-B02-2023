@@ -23,7 +23,7 @@ Jaringan Komputer (F) </br>
 > Must be known before starting configuration
 ## Network Topology
 > *Using Topology number 6*
-<img src="sources/doc-images/topology.png" height="50">
+<img src="resources/doc-images/topology.png">
 
 ## Node Configuration
 - **Router** 
@@ -268,13 +268,13 @@ host -t CNAME www.arjuna.b02.com
 
 ### Test Result
 Test tanpa **www**
-<img src="sources/doc-images/2-1.png" height="50">
+<img src="resources/doc-images/2-1.png" height="50">
 
 Test menggunakan **www**
-<img src="sources/doc-images/2-2.png" height="50">
+<img src="resources/doc-images/2-2.png" height="50">
 
 Test Alias dari **www**
-<img src="sources/doc-images/2-3.png" height="50">
+<img src="resources/doc-images/2-3.png" height="10">
 
 
 ## Question 3 - *DNS*
@@ -318,13 +318,13 @@ host -t CNAME www.abimanyu.b02.com
 
 ### Test Result
 Test tanpa **www**
-<img src="sources/doc-images/3-1.png" height="50">
+<img src="resources/doc-images/3-1.png" height="50">
 
 Test menggunakan **www**
-<img src="sources/doc-images/3-2.png" height="50">
+<img src="resources/doc-images/3-2.png" height="50">
 
 Test Alias dari **www**
-<img src="sources/doc-images/3-3.png" height="50">
+<img src="resources/doc-images/3-3.png" height="10">
 
 
 ## Question 4 - *DNS*
@@ -361,7 +361,7 @@ ping parikesit.abimanyu.b02.com -c 3
 ```
 
 ### Test Result
-<img src="sources/doc-images/4.png" height="50">
+<img src="resources/doc-images/4.png" height="50">
 
 ## Question 5 - *DNS*
 > Buat juga reverse domain untuk domain utama. (Abimanyu saja yang direverse)!
@@ -415,7 +415,7 @@ host -t PTR 192.179.3.3
 ```
 
 ### Test Result
-<img src="sources/doc-images/5.png" height="50">
+<img src="resources/doc-images/5.png" height="20">
 
 
 ## Question 6 - *DNS*
@@ -487,16 +487,16 @@ ping abimanyu.b02.com -c 3
 
 ### Test Result
 Start bind9 **Werkudara**
-<img src="sources/doc-images/6-1.png" height="50">
+<img src="resources/doc-images/6-1.png" height="50">
 
 Stop bind9 **Yudhistira**
-<img src="sources/doc-images/6-2.png" height="50">
+<img src="resources/doc-images/6-2.png" height="50">
 
 Test domain **Arjuna**
-<img src="sources/doc-images/6-3.png" height="50">
+<img src="resources/doc-images/6-3.png" height="50">
 
 Test domain **Abimanyu**
-<img src="sources/doc-images/6-4.png" height="50">
+<img src="resources/doc-images/6-4.png" height="50">
 
 
 ## Question 7 - *DNS*
@@ -600,13 +600,13 @@ host -t CNAME www.baratayuda.abimanyu.b02.com
 
 ### Test Result
 Test tanpa **www**
-<img src="sources/doc-images/7-1.png" height="50">
+<img src="resources/doc-images/7-1.png" height="50">
 
 Test menggunakan **www**
-<img src="sources/doc-images/7-2.png" height="50">
+<img src="resources/doc-images/7-2.png" height="50">
 
 Test Alias dari **www**
-<img src="sources/doc-images/7-3.png" height="50">
+<img src="resources/doc-images/7-3.png" height="10">
 
 
 ## Question 8 - *DNS*
@@ -653,13 +653,13 @@ host -t CNAME www.rjp.baratayuda.abimanyu.b02.com
 
 ### Test Result
 Test tanpa **www**
-<img src="sources/doc-images/8-1.png" height="50">
+<img src="resources/doc-images/8-1.png" height="50">
 
 Test menggunakan **www**
-<img src="sources/doc-images/8-2.png" height="50">
+<img src="resources/doc-images/8-2.png" height="50">
 
 Test Alias dari **www**
-<img src="sources/doc-images/8-3.png" height="50">
+<img src="resources/doc-images/8-3.png" height="10">
 
 
 ## Question 9 - *Web Server*
@@ -1046,7 +1046,7 @@ lynx abimanyu.b02.com
 ```
 
 ### Test Result
-<img src="sources/doc-images/11.png" height="50">
+<img src="resources/doc-images/11.png" height="50">
 
 
 ## Question 12 - *Web Server*
@@ -1092,7 +1092,7 @@ lynx abimanyu.b02.com/home
 ```
 
 ### Test Result
-<img src="sources/doc-images/12.png" height="50">
+<img src="resources/doc-images/12.png" height="50">
 
 
 ## Question 13 - *Web Server*
@@ -1135,7 +1135,7 @@ lynx parikesit.abimanyu.b02.com
 ```
 
 ### Test Result
-<img src="sources/doc-images/13.png" height="50">
+<img src="resources/doc-images/13.png" height="50">
 
 
 ## Question 14 - *Web Server*
@@ -1180,13 +1180,13 @@ lynx parikesit.abimanyu.b02.com/secret
 
 ### Test Result
 Test **public**
-<img src="sources/doc-images/14-1.png" height="50">
+<img src="resources/doc-images/14-1.png" height="50">
 
 Test **secret**
-<img src="sources/doc-images/14-2.png" height="50">
+<img src="resources/doc-images/14-2.png" height="50">
 
 Laman **secret** setelah *alert*
-<img src="sources/doc-images/14-3.png" height="50">
+<img src="resources/doc-images/14-3.png" height="50">
 
 
 ## Question 15 - *Web Server*
@@ -1240,16 +1240,16 @@ lynx parikesit.abimanyu.b02.com/secret
 
 ### Test Result
 Test pada laman **404 Error**
-<img src="sources/doc-images/15-1.png" height="50">
+<img src="resources/doc-images/15-1.png" height="50">
 
 Laman **404 Error** setelah *alert*
-<img src="sources/doc-images/15-2.png" height="50">
+<img src="resources/doc-images/15-2.png" height="50">
 
 Test pada laman **403 Forbidden**
-<img src="sources/doc-images/15-3.png" height="50">
+<img src="resources/doc-images/15-3.png" height="50">
 
 Laman **403 Forbidden** setelah *alert*
-<img src="sources/doc-images/15-4.png" height="50">
+<img src="resources/doc-images/15-4.png" height="50">
 
 
 ## Question 16 - *Web Server*
